@@ -1,0 +1,59 @@
+.main {
+    margin-bottom: 69px;
+}
+
+.main_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main_photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main_info {
+    max-width: 540px;
+}
+
+.main_info_title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 110%;
+}
+
+.main_info_text {
+    color: #86928B;
+    line-height: 150%;
+    /* 27px */
+    margin-bottom: 60px;
+}
+
+.main_info_button {
+    padding: 20px 60px;
+    border: 1px solid #598D66;
+    display: inline-block;
+    color: #598D66;
+    font-size: 20px;
+}
+
+.btn_a:hover {
+    background-color: #598D66;
+    color: white;
+    transition: ease .4s;
+}
+
+.btn_a:focus {
+    background-color: #D4E8D9;
+    color: #598D66;
+    outline: none;
+
+
+}
+
+.btn_a:active {
+    background-color: #376B44;
+    color: white;
+}

@@ -1,0 +1,49 @@
+.footer {
+    background-color: #E1EDE6;
+}
+.footer_inner {
+    padding: 23px 0;
+    display: flex;
+    gap: 115px;
+
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 16rem;
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_logo-tel {
+    font-size: 20px;
+}
+.footer_tel-descript {
+    color: #86928B;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.footer_nav {
+    display: flex;
+    gap: 60px;
+}
+.footer_nav_column a {
+    color: #86928B;
+}
+.footer_nav_column-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.footer-cnt {
+    margin: 6px 0;
+}
+.footer_contacts {
+    display: flex;
+    gap: 30px;
+}
+.footer_contacts-text {
+    color: #86928B;
+}

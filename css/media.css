@@ -1,0 +1,367 @@
+/* ==============================800px====================================== */
+@media (max-width:800px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
+    /* ===========================main=========================== */
+
+    .main_info_title {
+        font-size: 40px;
+        margin-top: 35px;
+    }
+
+    .main_info_text {
+        max-width: 330px;
+        margin-bottom: 40px;
+    }
+
+    /* ===========================main=========================== */
+    /* ===========================products=========================== */
+    .products_items {
+        grid-template-columns: repeat(2, 330px);
+    }
+
+    /* ===========================products===========================  */
+    /* ===========================team===========================  */
+    .team_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* ===========================team===========================  */
+    /* ===========================footer===========================  */
+    .footer_inner {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_logo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer_wrapper {
+        gap: 5.40rem;
+    }
+
+    /* ===========================footer===========================  */
+
+}
+
+/* ==============================800px====================================== */
+
+
+/* ==============================510px====================================== */
+
+@media (max-width:510px) {
+    .container {
+        overflow: hidden;
+    }
+
+    /* ==============================header====================================== */
+    .header_wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .header_nav {
+        white-space: nowrap;
+        font-size: 18px;
+    }
+
+    .header_logo::after {
+        content: "";
+        height: 1px;
+        background-color: #C3D1C6;
+        display: block;
+        margin: 15px 0;
+    }
+
+    /* ==============================header====================================== */
+    /* ==============================main====================================== */
+    .main_info_title {
+        font-size: 36px;
+        min-width: 285px;
+    }
+
+    .main_info_button {
+        font-size: 18px;
+    }
+
+    /* ==============================main====================================== */
+    /* ==============================products====================================== */
+    .products_wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .products_items {
+        grid-template-columns: repeat(2, 240px);
+        gap: 25px;
+    }
+
+    .products_item-price {
+        font-size: 20px;
+    }
+
+    .products_item-title {
+        font-size: 24px;
+    }
+
+    .porducts_item-author, .products_item-desc {
+        font-size: 16px;
+    }
+
+    .btn_a {
+        white-space: nowrap;
+    }
+
+    /* ==============================products====================================== */
+    /* ==============================footer====================================== */
+    .footer_wrapper {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer_contacts-wrapper::before {
+        content: "";
+        height: 1px;
+        background-color: #C3D1C6;
+        display: block;
+        margin: 15px 0;
+
+    }
+
+    .footer_contacts {
+        justify-content: center
+    }
+
+    .footer_contacts-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ==============================footer====================================== */
+
+}
+
+/* ==============================510px====================================== */
+/* ==============================320px====================================== */
+@media (max-width:320px) {
+    .header {
+        background-color: transparent;
+        padding: 17px 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .header_nav_wrapper_mobile {
+        display: flex;
+        background-color: #E1EDE6;
+        padding: 15px;
+        justify-content: space-between;
+    }
+
+    .header_logo {
+        margin-bottom: 16px;
+    }
+
+    .header_logo::after {
+        display: none;
+    }
+
+    /* ==============================header====================================== */
+    #header_burger-btn {
+        width: 60px;
+        height: 45px;
+        position: relative;
+        margin: 30px auto;
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+    #header_burger-btn span {
+        display: block;
+        position: absolute;
+        height: 9px;
+        width: 100%;
+        background: #337AB7;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+    #header_burger-btn span:nth-child(1) {
+        top: 0px;
+        transform-origin: left center;
+    }
+    #header_burger-btn span:nth-child(2) {
+        top: 18px;
+        transform-origin: left center;
+    }
+    #header_burger-btn span:nth-child(3) {
+        top: 36px;
+        transform-origin: left center;
+    }
+    #header_burger-btn.open span:nth-child(1) {
+        transform: rotate(45deg);
+        top: -3px;
+        left: 8px;
+    }
+    #header_burger-btn.open span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+    }
+    #header_burger-btn.open span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 39px;
+        left: 8px;
+    }
+
+    .header_nav {
+        position: absolute;
+        left: -320px;
+        top: 0;
+        background-color: #E1EDE6;
+        display: block;
+        padding: 16px 0px 126px 10px;
+        width: 320px;
+        margin-top: 85px;
+        transition: transform .5s;
+    }
+
+    .header_btn {
+        display: block;
+        text-align: start;
+        margin-top: 50px;
+
+    }
+
+    .header_btn_basket {
+        display: none;
+    }
+
+    .header_btn_basket1 {
+        display: block;
+    }
+    .header.open.header_nav {
+        transform: translateX(100%);
+    }
+
+
+    /* ==============================header====================================== */
+    /* ==============================main====================================== */
+
+    .main_photo img {
+        display: none;
+    }
+
+    .main_info_title {
+        font-size: 30px;
+    }
+
+    .main_info_button {
+        width: 175px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_info_text {
+
+        font-size: 14px;
+    }
+
+    .main_wrapper {
+        display: block;
+    }
+
+    /* ==============================main====================================== */
+    /* ==============================products====================================== */
+    .products_wrapper {
+        align-items: center;
+    }
+
+    .products_btns {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .products_items {
+        grid-template-columns: repeat(1, 290px);
+    }
+
+    /* ==============================products====================================== */
+    /* ==============================collection====================================== */
+    .collection_img svg {
+        width: 50px;
+    }
+
+    .collection_title-text {
+        font-size: 24px;
+        min-width: 230px;
+    }
+
+    .collection-info p {
+        max-width: 290px;
+        font-size: 16px;
+    }
+
+    .collection_info_btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ==============================collection====================================== */
+    /* ==============================team====================================== */
+    .team_photo img {
+        max-width: 245px;
+
+    }
+
+    .team_info-title {
+        font-size: 24px;
+    }
+
+    .team_info-descrit {
+        font-size: 16px;
+        max-width: 290px;
+    }
+
+    .team_info-avatars {
+        gap: 25px;
+    }
+
+    /* ==============================team====================================== */
+    /* ==============================footer====================================== */
+    .footer_logo {
+        display: block;
+    }
+
+    .footer_nav {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+
+    /* ==============================footer====================================== */
+    /* -------------------------------- */
+    .main, .collection, .team, .footer {
+        padding: 0 5px;
+    }
+    
+
+    /* -------------------------------- */
+
+}
+
+
+/* ==============================320px====================================== */

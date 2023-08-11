@@ -1,0 +1,25 @@
+.team {
+    margin-bottom: 70px;
+}
+.team_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.team_info {
+    max-width: 635px;
+}
+.team_info-title {
+font-size: 40px;
+
+}
+.team_info-descrit {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #2C2D35;
+}
+.team_info-avatars {
+    display: flex;
+    gap: 30px;
+}

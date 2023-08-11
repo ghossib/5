@@ -1,0 +1,56 @@
+.header {
+    padding: 32px 0;
+    background-color: #E1EDE6;
+}
+
+#header_burger-btn {
+    display: none;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.header_btn:hover {
+    color: #598D66;
+    transition: ease .3s;
+}
+
+.header_btn:focus {
+    outline: none;
+    background-color: #D4E8D9;
+    color: #2C2D35;
+}
+
+.header_btn:active {
+    color: #376B44;
+}
+
+.header_btn_basket:hover {
+    color: #598D66;
+    transition: ease .3s;
+}
+
+.header_btn_basket:focus {
+    outline: none;
+    background-color: #D4E8D9;
+    color: #376B44;
+
+}
+
+.header_btn_basket:active {
+    color: #376B44;
+
+}
+.header_btn_basket1 {
+    display: none;
+}
